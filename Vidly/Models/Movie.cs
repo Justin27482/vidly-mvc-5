@@ -12,9 +12,10 @@ namespace Vidly.Models
         [Required]
         public string Name { get; set; }
         
-        [Required]
+        
         public MovieGenre MovieGenre { get; set; }
 
+        [Required]
         [Display(Name = "Genre")]
         public int MovieGenreId { get; set; }
         
