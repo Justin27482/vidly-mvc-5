@@ -26,13 +26,10 @@
                 "dbo.MovieGenres",
                 c => new
                     {
-                        Id = c.Int(nullable: false, identity: true),
+                        Id = c.Int(nullable: false),
                         Name = c.String(nullable: false, maxLength: 255),
                     })
                 .PrimaryKey(t => t.Id);
-
-            //FINISH INSERTING GENRES HERE!!!!!!!!!
-            Sql("INSERT INTO MovieGenres (Id, N");
             
         }
         
