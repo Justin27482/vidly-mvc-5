@@ -219,6 +219,10 @@
     <Compile Include="Migrations\202304281648398_FixMembershipTypes2.designer.cs">
       <DependentUpon>202304281648398_FixMembershipTypes2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202304281825165_AddMovieGenreIDToMovieTable.cs" />
+    <Compile Include="Migrations\202304281825165_AddMovieGenreIDToMovieTable.designer.cs">
+      <DependentUpon>202304281825165_AddMovieGenreIDToMovieTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -230,6 +234,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\CustomerFormViewModel.cs" />
+    <Compile Include="ViewModels\MovieFormViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -296,6 +301,7 @@
     <Content Include="Views\Movies\Details.cshtml" />
     <Content Include="Views\Customers\CustomerForm.cshtml" />
     <None Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\MovieForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -343,6 +349,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202304281648398_FixMembershipTypes2.resx">
       <DependentUpon>202304281648398_FixMembershipTypes2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304281825165_AddMovieGenreIDToMovieTable.resx">
+      <DependentUpon>202304281825165_AddMovieGenreIDToMovieTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
