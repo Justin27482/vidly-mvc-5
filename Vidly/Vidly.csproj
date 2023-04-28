@@ -211,6 +211,14 @@
     <Compile Include="Migrations\202304281419483_UpdateGenreAddKey.designer.cs">
       <DependentUpon>202304281419483_UpdateGenreAddKey.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202304281647111_FixMembershipTypes.cs" />
+    <Compile Include="Migrations\202304281647111_FixMembershipTypes.designer.cs">
+      <DependentUpon>202304281647111_FixMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304281648398_FixMembershipTypes2.cs" />
+    <Compile Include="Migrations\202304281648398_FixMembershipTypes2.designer.cs">
+      <DependentUpon>202304281648398_FixMembershipTypes2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -221,6 +229,7 @@
     <Compile Include="Models\MovieGenre.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\NewCustomerViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -328,6 +337,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202304281419483_UpdateGenreAddKey.resx">
       <DependentUpon>202304281419483_UpdateGenreAddKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304281647111_FixMembershipTypes.resx">
+      <DependentUpon>202304281647111_FixMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304281648398_FixMembershipTypes2.resx">
+      <DependentUpon>202304281648398_FixMembershipTypes2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
