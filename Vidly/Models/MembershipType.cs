@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Web;
 
 namespace Vidly.Models
@@ -18,7 +19,10 @@ namespace Vidly.Models
         
         public byte DurationInMonths { get; set; }
         
-        public byte DiscountRate { get; set; }  
+        public byte DiscountRate { get; set; }
+
+        public static readonly byte Unknown = 0;
+        public static readonly byte PayAsYouGo = 1;
 
     }
 }
